@@ -38,7 +38,7 @@ spec:
         memory: "4Gi"
         cpu: "2"
   - id: spark-worker
-    members: 3
+    members: 1
     resources:
       requests:
         memory: "4Gi"
